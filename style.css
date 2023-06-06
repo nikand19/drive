@@ -126,7 +126,7 @@
     float: left;
     padding-top: 30px;
     border-top: 1px solid gray;
-
+font-size: 16px;
 }
 
 .row3-col1:hover {
@@ -135,7 +135,7 @@
     height: 70px;
     color: white;
     box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
-    font-size: 16px;
+    font-size: 17px;
     transition: 0.5s;
 }
 
