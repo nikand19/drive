@@ -1,0 +1,269 @@
+.header {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+    transition: 1s;
+
+}
+
+.main {
+    width: 100%;
+    height: 403px;
+    background-color: rgb(255 235 216)
+
+}
+
+.sem {
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 2px;
+    padding-left: 2px;
+    border-top: 1px solid black;
+    transition: 1s;
+}
+
+.row1 {
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.row1-col1 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+    text-decoration: none;
+
+}
+
+.row1-col1:hover {
+    background-color: rgb(235, 208, 163);
+    width: 50%;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row1-col2 {
+    width: 50%;
+    float: left;
+    height: 70px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+    text-decoration: none;
+
+}
+
+.row1-col2:hover {
+    background-color: rgb(235, 208, 163);
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row2 {
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.row2-col1 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row2-col1:hover {
+    background-color: rgb(235, 208, 163);
+    width: 50%;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row2-col2 {
+    width: 50%;
+    float: left;
+    height: 70px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row2-col2:hover {
+    background-color: rgb(235, 208, 163);
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row3 {
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.row3-col1 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+
+}
+
+.row3-col1:hover {
+    background-color: rgb(235, 208, 163);
+    width: 50%;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row3-col2 {
+    width: 50%;
+    float: left;
+    height: 70px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row3-col2:hover {
+    background-color: rgb(235, 208, 163);
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row4 {
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.row4-col1 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row4-col1:hover {
+    background-color: rgb(235, 208, 163);
+    width: 50%;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.row4-col2 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row5 {
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.row5-col1 {
+    width: 50%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.row5-col2 {
+    width: 50%;
+    float: left;
+    height: 70px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(224, 85, 85);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(245, 59, 59);
+    /* Add a dark-grey background on hover */
+}
