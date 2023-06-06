@@ -1,5 +1,5 @@
 function modify(){
-    document.getElementById('main').style.fontSize="40px";
+    document.getElementById('main').style.fontSize="35px";
     document.getElementById('main').style.color="red";
     // document.getElementById('main').style.fontWeight="bold";
 }
