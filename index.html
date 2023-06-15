@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>drive</title>
+
+   
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header id="main" onmouseenter="modify()" onmouseleave="unmodify()" class="header">Electronics and Communication</header>
-    <div id="sem" onmouseenter="modifySem()" onmouseleave="unmodifySem()"class="sem"> 6<sup>th</sup> SEM </div>
+    <header id="main" onmouseenter="modify()" onmouseleave="unmodify()" class="header">Electronics and Communication
+    </header>
+    <div id="sem" onmouseenter="modifySem()" onmouseleave="unmodifySem()" class="sem" > 6<sup>th</sup> SEM 
+    </div>
+    
+    
     <div class="main">
         <div class="row1">
             <div class="row1-col1">
@@ -67,10 +73,15 @@
 
     </div>
     <div class="footer">
-        <h2>Thank You!!</h2>
+        <body onload=display_ct();>
+            <span id='ct' ></span>
+        
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
-    
 </body>
 <script src="drive.js"></script>
+<script src="bootstrap.js"></script>
+<script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
+
 </html>
