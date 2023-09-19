@@ -188,6 +188,15 @@ font-size: 16px;
     padding-top: 30px;
     border-top: 1px solid gray;
 }
+.row4-col2:hover {
+    background-color: rgb(235, 208, 163);
+    width: 50%;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgb(155, 153, 150);
+    font-size: 16px;
+    transition: 0.5s;
+}
 
 .row5 {
     width: 100%;
